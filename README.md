@@ -6,3 +6,10 @@ This project contains an "expanding card" component created using HTML, CSS, and
 
 ![App Screenshot](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day1.png?raw=true)
 
+# Day2-Progress Steps
+
+A simple progress steps indicator implemented using HTML, CSS, and JavaScript.
+
+## Screenshot
+
+![App Screenshot](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day-2.png?raw=true)
