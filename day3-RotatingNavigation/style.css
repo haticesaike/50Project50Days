@@ -1,0 +1,96 @@
+@fa-font-path: "../font";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+}
+.content {
+  width: 70%;
+}
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+.circle {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 25px;
+  color: #fff;
+}
+.circle button:focus {
+  outline: none;
+}
+.circle button#open {
+  left: 60%;
+}
+.circle button#close {
+  top: 45%;
+  right: 10%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+.content img {
+  max-width: 100%;
+}
+nav {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+}
+.navSide {
+  display: none;
+}
+.navSide ul {
+  display: flex;
+  list-style-type: none;
+}
+.navSide ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #b9b1b1;
+  cursor: pointer;
+}
+.fa-user-alt {
+  padding-left: 10px;
+}
+.fa-envelope {
+  padding-left: 20px;
+}
+.iconCover {
+  display: flex;
+  gap: 15px;
+}

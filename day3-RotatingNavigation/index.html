@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    /> -->
+    <script
+      src="https://kit.fontawesome.com/0e76f580d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close" onclick="closeClickButton()">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open" onclick="openClickButton()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>lorem ipsum</h1>
+
+        <small>lorem ipsum dolor sit amet</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+          doloribus, eius assumenda dignissimos quidem, tenetur corrupti ea
+          voluptas earum unde in dolore voluptatum quia amet illum? Vitae ex
+          officiis reiciendis quisquam aliquid exercitationem quo aspernatur
+          tempore est placeat nisi saepe quidem accusamus, vel, ullam, minus
+          adipisci illo debitis. At, doloremque?
+        </p>
+        <h3>lorem ipsum dolor</h3>
+        <img
+          src="https://www.istockphoto.com/resources/images/IllustrationsLanding/SignatureTile.jpg"
+          alt=""
+        />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ea
+          similique numquam animi molestias ipsam perspiciatis voluptatibus
+          accusamus corporis omnis libero sapiente eius odio saepe.
+        </p>
+      </div>
+      <div></div>
+    </div>
+    <nav class="navSide" id="navigationSide">
+      <ul>
+        <li>
+          <div class="iconCover">
+            <i class="fas fa-home"> </i>
+            <div>HOME</div>
+          </div>
+          <div class="iconCover">
+            <i class="fas fa-user-alt"> </i>
+            <div>ABOUT</div>
+          </div>
+          <div class="iconCover">
+            <i class="fas fa-envelope"> </i>
+            <div>CONTACT</div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
