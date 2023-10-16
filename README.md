@@ -17,4 +17,4 @@ A simple progress steps indicator implemented using HTML, CSS, and JavaScript.
 Side menu design with javascript
 
 ## Screenshot
-![day3](https://github.com/haticesaike/50Project50Days/assets/56635524/aa158425-0fca-4416-b9ee-ec566929af44)
+![day3](https://raw.githubusercontent.com/haticesaike/50Project50Days/master/screenshots/day3.gif)
