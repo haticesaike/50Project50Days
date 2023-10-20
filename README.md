@@ -11,18 +11,27 @@ A simple progress steps indicator implemented using HTML, CSS, and JavaScript.
 ## Screenshot
 ![App Screenshot](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day-2.png?raw=true)
 
-
-
 # Day3-Rotating Navigation
 Side menu design with javascript
 
 ## Screenshot
 ![day3](https://raw.githubusercontent.com/haticesaike/50Project50Days/master/screenshots/day3.gif)
 
-
-
 # Day4-Hidden Search Widget
 
 ## Screenshot
 ![day4](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day4.gif)
+
+# Day5-Blurry Loading
+
+## Screenshot
+![day4](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day5.gif?raw=true)
+
+
+
+
+
+
+
+
 
