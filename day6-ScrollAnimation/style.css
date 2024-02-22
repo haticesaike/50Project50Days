@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+/*reset css end*/
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #748da6;
+  gap: 20px;
+  overflow-x: hidden;
+  height: auto;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2d2d2d;
+  margin: 10px 0;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #9cb4cc;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(1000px);
+  transition: transform 0.8s ease;
+}
+.box:nth-of-type(even) {
+  background-color: #d3cedf;
+  transform: translateX(-1000%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
