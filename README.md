@@ -31,7 +31,10 @@
 ![day6](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day6.gif)
 
 
+# Day7-Split Landing Page
 
+## Screenshot
+![day7](https://github.com/haticesaike/50Project50Days/blob/master/screenshots/day7.gif?raw=true)
 
 
 
