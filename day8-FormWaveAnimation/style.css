@@ -122,3 +122,82 @@ table {
   border-spacing: 0;
 }
 /* reset css end */
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: steelblue;
+  color: #fff;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 60px 40px;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+.form-control {
+  position: relative;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.form-control input:focus,
+.form-control input:valid {
+  border-bottom-color: lightblue;
+  outline: none;
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  background-color: lightblue;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.button:active {
+  transform: scale(0.98);
+}
